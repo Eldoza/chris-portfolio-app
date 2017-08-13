@@ -43,9 +43,15 @@ const styles = StyleSheet.create({
      background:'rgba(255,255,255,0.5)',
      textAlign: 'center',
      padding: '40px',
-  }
-
-
+  },
+  footButtons: {
+    boxShadow: 'inset 0 0 0 50px white',
+  },
+  hover: {
+    ':hover' : {
+      transition: 'transition: color 500ms ease',
+    }
+  },
 })
 
 export default styles

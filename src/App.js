@@ -84,14 +84,10 @@ class App extends Component {
               </div>
             </Row>
 
-            {/* <Row>
-              <Divider inverted={true}/>
-            </Row> */}
-
             <div className={css(styles.footerItems)}>
-              <Button basic inverted color="blue" onClick={this.openPortfolioModal}>Portfolio</Button>
-              <Button basic inverted color="blue" onClick={this.openResumeModal}>Resume</Button>
-              <Button basic inverted color="blue">Contact</Button>
+              <Button basic onClick={this.openPortfolioModal} className={css(styles.footButtons, styles.hover)}>Portfolio</Button>
+              <Button basic onClick={this.openResumeModal} className={css(styles.footButtons, styles.hover)}>Resume</Button>
+              <Button basic className={css(styles.footButtons, styles.hover)}>Contact</Button>
             </div>
           </Column>
         </Grid>

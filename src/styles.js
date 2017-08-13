@@ -15,11 +15,22 @@ const styles = StyleSheet.create({
     fontSize: '20px',
     textAlign: 'center'
   },
-  
-  navBar : {
-    backgroundColor: "black",
-    padding: "20px",
-  }
+  heroImage: {
+    textAlign: 'center',
+  },
+  logos: {
+    textAlign: 'center',
+    padding: '10px',
+  },
+  footerItems: {
+    textAlign: 'center',
+    fontFamily: 'Special Elite',
+    fontSize: '30px',
+  },
+  dividerTitle: {
+    marginTop: '-90px',
+  },
+
 })
 
 export default styles

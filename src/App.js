@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Container, Grid, Image} from 'semantic-ui-react'
-import NavBar from './Navbar'
+import {Grid, Image, Divider, Icon, Button} from 'semantic-ui-react'
 
 import styles from './styles'
 import {css} from 'aphrodite'
@@ -12,10 +11,13 @@ class App extends Component {
     return (
       <Grid>
         <Column>
-          <Row>
+          <Row textAlign="center">
             <p className={css(styles.heroTitle)}>
-              MENDOZA.IO
+              MENDOZA
             </p>
+            <div className={css(styles.dividerTitle)}>
+              <Divider inverted={true}/>
+            </div>
             {/* TODO add href link to stridekick name */}
             <p className={css(styles.heroContent)}>
               Hi my name is Chris Mendoza and I am a Chicago based Web Developer and Software Engineer. If I am not working on a cool new project for Stridekick, I'm working on a freelancing project for cool clients from all over the world.
@@ -28,11 +30,29 @@ class App extends Component {
 
              {/* TODO add href to Northwestern */}
             </p>
+            <div className={css(styles.heroImage)}>
+              <Image
+               src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAsdAAAAJDVlMDMyMzE1LTY5MDctNGU1NS05OTEzLTRiNzAwMjAxMTU2NA.jpg"
+               avatar
+               size="small"
+              />
+            </div>
+            <div className={css(styles.logos)}>
+              <Icon name="linkedin square" size="big"/>
+              <Icon name="twitter" size="big" />
+            </div>
           </Row>
 
-          <Row textAlign="center">
-            <Image src="https://robohash.org/chris" size="small" />
+          <Row>
+            <Divider inverted={true}/>
           </Row>
+
+          <div className={css(styles.footerItems)}>
+            <Button basic inverted color="blue">Home</Button>
+            <Button basic inverted color="blue">Portfolio</Button>
+            <Button basic inverted color="blue">Resume</Button>
+            <Button basic inverted color="blue">Contact</Button>
+          </div>
         </Column>
       </Grid>
     );

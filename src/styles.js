@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
   heroContent: {
     fontFamily: 'Special Elite',
     fontSize: '20px',
-    textAlign: 'center'
+    textAlign: 'center',
+    // color: '#ffffff',
   },
   heroImage: {
     textAlign: 'center',
@@ -31,11 +32,14 @@ const styles = StyleSheet.create({
     marginTop: '-90px',
   },
   hrefLinks: {
-    color: 'orange',
+    color: 'teal',
     ':hover .links': {
       'color': 'blue',
     }
   },
+  bigHeroContent: {
+     background:'rgba(255,255,255,0.5)',
+  }
 
 
 })

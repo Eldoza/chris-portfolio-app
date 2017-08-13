@@ -48,10 +48,11 @@ class App extends Component {
               <p className={css(styles.heroTitle)}>
                 MENDOZA
               </p>
-              <div className={css(styles.dividerTitle)}>
+            </Row>
+              {/* <div className={css(styles.dividerTitle)}>
                 <Divider inverted={true}/>
-              </div>
-
+              </div> */}
+            <Row>
               <div className={css(styles.bigHeroContent)}>
                 {/* TODO add href link to stridekick name */}
                 <p className={css(styles.heroContent)}>
@@ -83,9 +84,9 @@ class App extends Component {
               </div>
             </Row>
 
-            <Row>
+            {/* <Row>
               <Divider inverted={true}/>
-            </Row>
+            </Row> */}
 
             <div className={css(styles.footerItems)}>
               <Button basic inverted color="blue" onClick={this.openPortfolioModal}>Portfolio</Button>

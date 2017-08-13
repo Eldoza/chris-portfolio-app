@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
   heroTitle: {
     fontFamily: "Allerta Stencil",
     fontSize: '130px',
-    textAlign: 'center'
+    textAlign: 'center',
+    marginBottom: '65px',
   },
   heroContent: {
     fontFamily: 'Special Elite',
@@ -27,6 +28,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontFamily: 'Special Elite',
     fontSize: '30px',
+    marginTop: '20px',
   },
   dividerTitle: {
     marginTop: '-90px',
@@ -39,6 +41,8 @@ const styles = StyleSheet.create({
   },
   bigHeroContent: {
      background:'rgba(255,255,255,0.5)',
+     textAlign: 'center',
+     padding: '40px',
   }
 
 

@@ -30,6 +30,13 @@ const styles = StyleSheet.create({
   dividerTitle: {
     marginTop: '-90px',
   },
+  hrefLinks: {
+    color: 'orange',
+    ':hover .links': {
+      'color': 'blue',
+    }
+  },
+
 
 })
 

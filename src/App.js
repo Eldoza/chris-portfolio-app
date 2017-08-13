@@ -20,7 +20,7 @@ class App extends Component {
             </div>
             {/* TODO add href link to stridekick name */}
             <p className={css(styles.heroContent)}>
-              Hi my name is Chris Mendoza and I am a Chicago based Web Developer and Software Engineer. If I am not working on a cool new project for Stridekick, I'm working on a freelancing project for cool clients from all over the world.
+              Hello! My name is Chris Mendoza and I am a Chicago based Web Developer and Software Engineer. If I am not working on an awesome new project for <a href="https://stridekick.com" className={css(styles.hrefLinks)}>Stridekick</a>, I'm working on a freelancing project for cool clients from all over the world.
             </p>
 
             <p className={css(styles.heroContent)}>
@@ -38,8 +38,12 @@ class App extends Component {
               />
             </div>
             <div className={css(styles.logos)}>
-              <Icon color="blue" name="linkedin square" size="big"/>
-              <Icon color="blue" name="twitter" size="big" />
+              <a href={"https://www.linkedin.com/in/chris-mendoza-02384784/"} className={css(styles.hrefLinks)}>
+                <Icon link={true} name="linkedin square" size="big" />
+              </a>
+              <a href={"https://twitter.com/Da_dozer"}>
+                <Icon name="twitter" size="big" />
+              </a>
             </div>
           </Row>
 

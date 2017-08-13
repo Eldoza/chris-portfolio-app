@@ -38,8 +38,8 @@ class App extends Component {
               />
             </div>
             <div className={css(styles.logos)}>
-              <Icon name="linkedin square" size="big"/>
-              <Icon name="twitter" size="big" />
+              <Icon color="blue" name="linkedin square" size="big"/>
+              <Icon color="blue" name="twitter" size="big" />
             </div>
           </Row>
 

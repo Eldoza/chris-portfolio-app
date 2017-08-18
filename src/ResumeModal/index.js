@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import {Modal} from 'semantic-ui-react'
 
+import {Modal} from 'semantic-ui-react'
 
 class ResumeModal extends Component {
 
@@ -10,7 +10,7 @@ class ResumeModal extends Component {
     return (
       <Modal closeIcon="close" onClose={closeResumeModal} open={true}>
         <Modal.Content>
-           <div>Resume goes here</div>
+           <div>Awesome resume coming soon!</div>
         </Modal.Content>
       </Modal>
     )

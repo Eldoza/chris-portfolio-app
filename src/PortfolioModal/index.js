@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import {Modal} from 'semantic-ui-react'
 
+import {Modal} from 'semantic-ui-react'
 
 class PortfolioModal extends Component {
 
@@ -10,7 +10,7 @@ class PortfolioModal extends Component {
     return (
       <Modal closeIcon="close" onClose={closePortfolioModal} open={true}>
         <Modal.Content>
-           <div>Portfolio goes here</div>
+           <div>Awesome projects coming soon!</div>
         </Modal.Content>
       </Modal>
     )

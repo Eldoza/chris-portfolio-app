@@ -1,10 +1,10 @@
+import {Button, Divider, Grid, Icon, Image, Modal} from 'semantic-ui-react'
 import React, { Component } from 'react';
-import {Grid, Image, Divider, Icon, Button, Modal} from 'semantic-ui-react'
-import ResumeModal from './ResumeModal'
-import PortfolioModal from './PortfolioModal'
 
-import styles from './styles'
+import PortfolioModal from './PortfolioModal'
+import ResumeModal from './ResumeModal'
 import {css} from 'aphrodite'
+import styles from './styles'
 
 const {Column, Row} = Grid
 
@@ -85,9 +85,9 @@ class App extends Component {
             </Row>
 
             <div className={css(styles.footerItems)}>
-              <Button basic onClick={this.openPortfolioModal} className={css(styles.footButtons, styles.hover)}>Portfolio</Button>
-              <Button basic onClick={this.openResumeModal} className={css(styles.footButtons, styles.hover)}>Resume</Button>
-              <Button basic className={css(styles.footButtons, styles.hover)}>Contact</Button>
+              <Button size="large" basic inverted color="teal" onClick={this.openPortfolioModal}>Portfolio</Button>
+              <Button size="large" basic inverted color="teal" onClick={this.openResumeModal}>Resume</Button>
+              <Button size="large" basic inverted color="teal">Contact</Button>
             </div>
           </Column>
         </Grid>

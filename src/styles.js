@@ -1,7 +1,10 @@
 import {StyleSheet} from 'aphrodite'
 
 const styles = StyleSheet.create({
-
+  heroSegment : {
+    // backgroundImage:"url(images/SeeingSpots_1400x900-1024x658.jpg)",
+    // backgroundSize: "cover",
+  },
   heroTitle: {
     fontFamily: "Allerta Stencil",
     fontSize: '130px',
@@ -37,12 +40,19 @@ const styles = StyleSheet.create({
     }
   },
   bigHeroContent: {
-     background:'rgba(255,255,255,0.6)',
+     background:'rgba(255,255,255,0.5)',
      textAlign: 'center',
      padding: '40px',
-     marginTop: '-40px'
+     
   },
-
+  footButtons: {
+    boxShadow: 'inset 0 0 0 50px white',
+  },
+  hover: {
+    ':hover' : {
+      transition: 'transition: color 500ms ease',
+    }
+  },
 })
 
 export default styles

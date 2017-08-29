@@ -1,4 +1,4 @@
-import {Button, Divider, Grid, Icon, Image, Modal} from 'semantic-ui-react'
+import {Button, Grid, Icon, Image} from 'semantic-ui-react'
 import React, { Component } from 'react';
 
 import PortfolioModal from './PortfolioModal'
@@ -85,9 +85,9 @@ class App extends Component {
             </Row>
 
             <div className={css(styles.footerItems)}>
-              <Button size="large" basic inverted color="teal" onClick={this.openPortfolioModal}>Portfolio</Button>
-              <Button size="large" basic inverted color="teal" onClick={this.openResumeModal}>Resume</Button>
-              <Button size="large" basic inverted color="teal">Contact</Button>
+              <Button basic onClick={this.openPortfolioModal} inverted color="teal">Portfolio</Button>
+              <Button basic onClick={this.openResumeModal} inverted color="teal" >Resume</Button>
+              <Button basic inverted color="teal">Contact</Button>
             </div>
           </Column>
         </Grid>

@@ -10,7 +10,7 @@ class PortfolioModal extends Component {
     return (
       <Modal closeIcon="close" onClose={closePortfolioModal} open={true}>
         <Modal.Content>
-           <div>Awesome projects coming soon!</div>
+           <div>Portfolio goes here </div>
         </Modal.Content>
       </Modal>
     )

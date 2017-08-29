@@ -1,6 +1,5 @@
+import {Image, Modal} from 'semantic-ui-react'
 import React, {Component} from 'react'
-
-import {Modal} from 'semantic-ui-react'
 
 class ResumeModal extends Component {
 
@@ -9,8 +8,8 @@ class ResumeModal extends Component {
 
     return (
       <Modal closeIcon="close" onClose={closeResumeModal} open={true}>
-        <Modal.Content>
-           <div>Awesome resume coming soon!</div>
+        <Modal.Content image>
+           <Image src="images/Chris-Mendoza-Resume.pdf" size="huge"/>
         </Modal.Content>
       </Modal>
     )

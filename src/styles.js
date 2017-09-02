@@ -20,6 +20,11 @@ const styles = StyleSheet.create({
   heroImage: {
     textAlign: 'center',
   },
+  heroText: {
+    // width: '80%',
+    textAlign: 'center',
+    marginBottom: '20px' ,
+  },
   logos: {
     textAlign: 'center',
     padding: '10px',
@@ -43,7 +48,8 @@ const styles = StyleSheet.create({
      background:'rgba(255,255,255,0.5)',
      textAlign: 'center',
      padding: '40px',
-     
+     marginTop: '-60px',
+
   },
   footButtons: {
     boxShadow: 'inset 0 0 0 50px white',

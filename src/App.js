@@ -49,23 +49,26 @@ class App extends Component {
                 MENDOZA
               </p>
             </Row>
-              {/* <div className={css(styles.dividerTitle)}>
-                <Divider inverted={true}/>
-              </div> */}
+
             <Row>
               <div className={css(styles.bigHeroContent)}>
                 {/* TODO add href link to stridekick name */}
-                <p className={css(styles.heroContent)}>
-                  Hello! My name is Chris Mendoza and I am a Chicago based Web Developer and Software Engineer. If I am not working on an awesome new project for <a href="https://stridekick.com" className={css(styles.hrefLinks)}>Stridekick</a> , I'm working on a freelancing project for cool clients from all over the world.
-                </p>
+                <div className={css(styles.heroContent)}>
 
-                <p className={css(styles.heroContent)}>
-                  I have a diverse set of skills that range from HTML + CSS + Javascript, all the way to working with various frameworks including: React + Apollo, GraphQL + Node, and Ruby on Rails.
+                  <p className={css(styles.heroText)}>
+                    Hello! My name is Chris Mendoza and I am a Chicago based Web Developer and Software Engineer. If I am not working on an awesome new project for <a href="https://stridekick.com" className={css(styles.hrefLinks)}>Stridekick</a> , I'm working on a freelancing project for cool clients from all over the world. I have a diverse set of skills that range from HTML + CSS + Javascript, all the way to working with various frameworks including: React + Apollo, GraphQL + Node, and Ruby on Rails.   I have working back-end knowledge that includes: MySQL, MongoDB, Express, GraphQL, Elastic Search.
+                  {/* </p>
+                </div>
 
-                  I have working back-end knowledge that includes: MySQL, MongoDB, Express, GraphQL, Elastic Search.
+                <div className={css(styles.heroContent)}>
+                  <p className={css(styles.heroText)}> */}
+                    {/* I have a diverse set of skills that range from HTML + CSS + Javascript, all the way to working with various frameworks including: React + Apollo, GraphQL + Node, and Ruby on Rails. */}
+                  </p>
+
+                  {/* I have working back-end knowledge that includes: MySQL, MongoDB, Express, GraphQL, Elastic Search. */}
 
                  {/* TODO add href to Northwestern */}
-                </p>
+               </div>
                 <div className={css(styles.heroImage)}>
                   <Image
                    src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAsdAAAAJDVlMDMyMzE1LTY5MDctNGU1NS05OTEzLTRiNzAwMjAxMTU2NA.jpg"
